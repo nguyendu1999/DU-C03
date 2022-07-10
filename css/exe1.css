@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "open sans",sans-serif;
+}
+.main{
+    display: flex;
+}
+
+p{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    text-align:justify;
+    padding-left: 20px;
+    font-size: 34px;
+}
+
+h1{
+    color: tomato;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    width: 70%;
+    
+}
+
+h2{
+    color:dodgerblue ;
+    padding-left: 25px;
+    padding: 10px;
+    padding: 20px;
+}
+.content{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content>div{
+    /* height: 50%; */
+    font-size: 30px;
+}
+.image{
+    position:relative;
+    width: 40%;
+    height: 100vh;
+}
+
+img{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    right: 0;
+    bottom: 0;
+}

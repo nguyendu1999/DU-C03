@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+
+}
+
+div{
+    position: relative;
+    background-color: aqua;
+    width: 30%;
+    height: auto;
+    left: 35%;
+}
+
+p{
+    padding:50px;
+
+}

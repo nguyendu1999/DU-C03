@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    font-size: 36px;
+}
+
+#name{
+    color: white;
+    background:dodgerblue;
+    border: solid;
+    padding: 11px;
+    text-decoration: none;
+    border: none;
+}
+
+#one{
+    color: white;
+    background: #3c3939;
+    border: solid;
+    padding: 11px;
+    text-decoration: none;
+    border: none;
+}
+
+#tow{
+    color: white;
+    background: #3c3939;
+    border: solid;
+    padding: 11px;
+    text-decoration: none;
+    border: none;
+
+}
+
+#three{
+    color: white;
+    background: #3c3939;
+    border: solid;
+    padding: 11px;
+    text-decoration: none;
+    border: none;
+
+}
+
+#for{
+    color: white;
+    background: #3c3939;
+    border: solid;
+    padding: 11px;
+    text-decoration: none;
+    border: none;
+}
+
+nav{
+    background-color: #3c3939;
+    height: 51px;
+}
+
+#one:hover,#tow:hover,#three:hover,#for:hover{
+    background-color: tomato;
+    transition: all 0.7s;
+}
